@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vamos Contar</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="d-flex-section title-section">
+      <header>
+        <h1>Vamos Contar</h1>
+      </header>
+
+      <section class="d-flex-section card-section">
+        <form>
+          <div class="d-flex-form">
+            <label for="txtini">Início:</label>
+            <input type="number" name="txtini" id="txtini" />
+          </div>
+          <div class="d-flex-form">
+            <label for="txtfim">Fim:</label>
+            <input type="number" name="txtfim" id="txtfim" />
+          </div>
+          <div class="d-flex-form">
+            <label for="txtpas">Passo:</label>
+            <input type="number" name="txtpas" id="txtpas" />
+          </div>
+        </form>
+        <div>
+          <input type="button" id="btn" value="Contar" onclick="contar()" />
+        </div>
+        <div>
+          <p id="res">Preparando a contagem...</p>
+        </div>
+      </section>
+    </section>
+
+    <footer>
+      <a
+        href="https://www.linkedin.com/in/vinicius-fontes-b7a83a266/"
+        title="linkedin"
+        target="_blank"
+        ><i class="bi bi-linkedin"></i
+      ></a>
+
+      <a
+        href="https://github.com/ViniciusFontes-02"
+        title="github"
+        target="_blank"
+        ><i class="bi bi-github"></i
+      ></a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
