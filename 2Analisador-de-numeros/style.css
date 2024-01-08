@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+p,
+label {
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+  font-size: 18px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+.wrapper {
+  background-color: rgb(66, 85, 252);
+  display: grid;
+  place-items: center;
+  color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+section {
+  background-color: rgb(223, 255, 255);
+  border: solid 1px #000000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+select,
+input {
+  border: solid 1px #ffac34;
+}
+
+select {
+  width: 100%;
+  background-color: #f58f0021;
+}
+
+option {
+  padding: 2px 5px;
+}
+
+#fnum {
+  width: 90px;
+  padding: 3px;
+  background-color: #ffbe6221;
+}
+
+.btn {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #ffac34;
+  border-radius: 0 10px;
+  padding: 5px 10px;
+}
+
+.btn:hover,
+a:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.wrapper-button-1,
+.wrapper-button-2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.wrapper-res {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+a {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0 10px;
+}
+a:hover {
+  color: #03000c;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+}
