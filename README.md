@@ -1,4 +1,4 @@
-###Com a ajuda das séries de videoaulas do curso gratuito de JavaScript no YouTube, desenvolvi estes 5 projetos básicos utilizando HTML, CSS e JavaScript.
+### Com a ajuda das séries de videoaulas do curso gratuito de JavaScript no YouTube, desenvolvi estes 5 projetos básicos utilizando HTML, CSS e JavaScript.
 
 👨‍💻 - Hora do dia: Neste projeto, o fundo da tela muda de cor e exibe uma imagem correspondente ao horário do dia - manhã, tarde ou noite - baseado no horário atual capturado pelo computador.
 
